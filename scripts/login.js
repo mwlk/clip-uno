@@ -17,7 +17,11 @@ form.addEventListener("submit", function (e) {
       $("#myModal").modal("show");
       $("#modalTitle").html("Email");
       $("#textModal").html("Ingrese un Email válido");
+      $("#botonModal").removeClass("btn btn-success");
+      $("#botonModal").addClass("btn btn-danger");
     } else {
+      $("#botonModal").removeClass("btn btn-danger");
+      $("#botonModal").addClass("btn btn-success");
       $("#myModal").modal("show");
       $("#modalTitle").html("Bienvenido");
       $("#textModal").html(
