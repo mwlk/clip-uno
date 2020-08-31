@@ -12,6 +12,8 @@ formForgot.addEventListener("submit", function (e) {
     document.forgot.email.focus();
     return 0;
   } else {
+    $("#botonModal").removeClass("btn btn-danger");
+    $("#botonModal").addClass("btn btn-success");
     $("#myModal").modal("show");
     $("#modalTitle").html("Reinicio de Password");
     $("#textModal").html(
@@ -20,6 +22,5 @@ formForgot.addEventListener("submit", function (e) {
     setTimeout(function () {
       window.location = "index.html";
     }, 3000);
-    
   }
 });
