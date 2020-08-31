@@ -1,0 +1,166 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://www.cba.gov.ar/programaclip/">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzcwWLdb3j4ghC4fTkgeaWMoNG3BEuuuz9BA&usqp=CAU"
+      width="30"
+      height="30"
+      class="d-inline-block align-top"
+      alt=""
+      loading="lazy"
+    />
+    Clip
+    <a class="navbar-brand" href="index.html"> Home </a>
+  </a>
+</nav>
+
+<div class="container text-center">
+  <!-- Default form login -->
+  <form name="sigin" class="text-center border border-light p-5" id="formLogin">
+    <p class="h4 mb-4">Sign in</p>
+
+    <!-- Email -->
+    <div class="input-group mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="E-mail"
+        aria-label="E-mail"
+        aria-describedby="basic-addon2"
+        name="email"
+        required
+        id="defaultLoginFormEmail"
+      />
+      <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+    </div>
+
+    <!-- Password -->
+    <input
+      type="password"
+      id="defaultLoginFormPassword"
+      class="form-control mb-4"
+      placeholder="Password"
+      name="password"
+      required
+    />
+
+    <div class="d-flex justify-content-around">
+      <div>
+        <!-- Remember me -->
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            id="defaultLoginFormRemember"
+          />
+          <label class="custom-control-label" for="defaultLoginFormRemember"
+            >Remember me</label
+          >
+        </div>
+      </div>
+      <div>
+        <!-- Forgot password -->
+        <a href="forgot.html">Forgot password?</a>
+      </div>
+    </div>
+
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block my-4" type="submit" id="sigInBoton">
+      Sign in
+    </button>
+    <!-- Register -->
+    <p>
+      Not a member?
+      <a href="contact.html">Register</a>
+    </p>
+
+    <!-- Social login -->
+    <p>or sign in with:</p>
+
+    <div>
+      <ul class="social-network social-circle">
+        <li>
+          <a
+            href="https://www.facebook.com/login"
+            class="icoFacebook"
+            title="Facebook"
+            ><i class="fa fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/login" class="icoTwitter" title="Twitter"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/&ec=GAZAAQ"
+            class="icoGoogle"
+            title="Google +"
+            ><i class="fa fa-google-plus"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/login/es?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
+            class="icoLinkedin"
+            title="Linkedin"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </form>
+</div>
+
+<div>
+  <div class="modal" tabindex="-1" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">Modal title</h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p id="textModal">Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            Cerrar
+          </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Default form login -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Actividad Clip</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/validForm.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzcwWLdb3j4ghC4fTkgeaWMoNG3BEuuuz9BA&usqp=CAU">
+  <body></body>
+</html>

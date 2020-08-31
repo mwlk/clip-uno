@@ -1,0 +1,98 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://www.cba.gov.ar/programaclip/">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzcwWLdb3j4ghC4fTkgeaWMoNG3BEuuuz9BA&usqp=CAU"
+      width="30"
+      height="30"
+      class="d-inline-block align-top"
+      alt=""
+      loading="lazy"
+    />
+    Clip
+    <a class="navbar-brand" href="index.html"> Home </a>
+  </a>
+</nav>
+<div class="container text-center">
+  <form class="text-center border border-light p-5" name="adiv" id="adiv">
+    <div>
+      Una cajita blanca como la cal. Todos la saben abrir pero nadie cerrar.
+      ¿Qué es?
+    </div>
+    <div class="form-group mb-2">
+      <label  class="sr-only" >Respuesta</label>
+      <input
+        type="text"
+        readonly
+        class="form-control-plaintext"
+        value="Adivinanza"
+      />
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+      <label for="inputPassword2" class="sr-only">Confirmar</label>
+      <input
+        id="respuesta"
+        type="text"
+        class="form-control input-sm"
+        placeholder="Respuesta"
+        name="respuesta"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary mb-2" id="boton">Confirmar</button>
+  </form>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert" id="alert">
+    <strong id="alert">Intentos restantes:</strong>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="progress">
+    <div
+      id="bar"
+      class="progress-bar progress-bar-striped"
+      role="progressbar"
+      style="width: 100%"
+      aria-valuenow="10"
+      aria-valuemin="0"
+      aria-valuemax="100"
+    ></div>
+  </div>
+  <div class="modal" tabindex="-1" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p id="textModal">Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Adivinanza</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/adivinanza.js"></script>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzcwWLdb3j4ghC4fTkgeaWMoNG3BEuuuz9BA&usqp=CAU">
+  </head>
+  <body></body>
+</html>
