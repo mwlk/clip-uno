@@ -16,8 +16,7 @@ formulario.addEventListener("submit", function (e) {
   } else {
     if (
       respuesta.value === null ||
-      respuesta.value != "huevo" ||
-      respuesta.value != "HUEVO"
+      respuesta.value.toUpperCase() != "HUEVO"
     ) {
       intentos--;
       $("#alert").html("te quedan " + intentos + " intentos");
