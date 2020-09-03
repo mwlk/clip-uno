@@ -30,7 +30,7 @@ form.addEventListener("submit", function (e) {
 
       setTimeout(function () {
         window.location = "adivinanza.html";
-      }, 2000);
+      }, 2500);
     }
   }
 });
