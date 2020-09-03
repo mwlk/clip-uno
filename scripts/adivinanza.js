@@ -6,18 +6,17 @@ var formulario = document.getElementById("adiv");
 
 formulario.addEventListener("submit", function (e) {
   e.preventDefault();
-  if (respuesta.value.toUpperCase() === "HUEVO" ) {
+  if (respuesta.value.toUpperCase() === "HUEVO") {
     $("#alert").removeClass("alert alert-warning alert-dismissible fade show");
     $("#alert").addClass("alert alert-success");
     $("#alert").html("Felicitaciones");
-
+    $("#myModal").modal("show");
+    $("#modalTitle").html("Adivinanza");
+    $("#textModal").html("Felicitaciones");
     document.getElementById("respuesta").disabled = true;
     document.getElementById("boton").disabled = true;
   } else {
-    if (
-      respuesta.value === null ||
-      respuesta.value.toUpperCase() != "HUEVO"
-    ) {
+    if (respuesta.value === null || respuesta.value.toUpperCase() != "HUEVO") {
       intentos--;
       $("#alert").html("te quedan " + intentos + " intentos");
       $("#bar").css("width", intentos * 25 + "%");
