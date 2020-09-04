@@ -9,12 +9,13 @@ formLogin.addEventListener("submit", function (e) {
   // Variable to count number of attempts.
   var re = /^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
   if (re.exec(email.value) && password.value === "123") {
-    $("#myModal").modal("show");
-    $("#modalTitle").html("Bienvenido");
-    $("#textModal").html("Intente resolver Adivinanza");
     // cambia color boton modal de danger a success
     $("#botonModal").removeClass("btn btn-danger");
     $("#botonModal").addClass("btn btn-success");
+    $("#myModal").modal("show");
+    $("#modalTitle").html("Bienvenido");
+    $("#textModal").html("Intente resolver Adivinanza");
+    //temporizador que redirecciona automaticamente a la adivinanza
     setTimeout(function () {
       window.location = "adivinanza.html";
     }, 2000);
