@@ -79,3 +79,18 @@ a.socialIcon:hover,
   -ms-transition: all 0.8s;
   transition: all 0.8s;
 }
+
+/*add efecto hover sobre la lista de bootstrap*/
+tr:hover td {
+  background-color: rgb(146, 166, 230);
+}
+tr:hover th {
+  background-color: rgb(105, 138, 187);
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: white;
+}
