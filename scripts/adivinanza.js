@@ -7,6 +7,8 @@ var formulario = document.getElementById("adiv");
 formulario.addEventListener("submit", function (e) {
   e.preventDefault();
   if (respuesta.value.toUpperCase() === "HUEVO") {
+    $("#botonModal").removeClass("btn btn-danger");
+    $("#botonModal").addClass("btn btn-success");
     $("#alert").removeClass("alert alert-warning alert-dismissible fade show");
     $("#alert").addClass("alert alert-success");
     $("#alert").html("Felicitaciones");
