@@ -112,5 +112,17 @@ a:hover {
   background-color: #8892bf;
 }
 #tabla-lamp a:hover {
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+}
+
+ul.stack-icons {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.stack-icons li {
+  display: inline;
+  margin: 0 5px;
 }
