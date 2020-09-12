@@ -1,3 +1,14 @@
+/*estilo de los iconos de los stacks*/
+ul.stack-icons {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+ul.stack-icons li {
+  display: inline;
+  margin: 0 5px;
+}
 ul.social-network {
   list-style: none;
   display: inline;
@@ -113,15 +124,4 @@ a:hover {
 }
 #tabla-lamp a:hover {
   color: rgb(255, 255, 255);
-}
-/*estilo de los iconos de los stacks*/
-ul.stack-icons {
-  list-style: none;
-  display: inline;
-  margin-left: 0 !important;
-  padding: 0;
-}
-ul.stack-icons li {
-  display: inline;
-  margin: 0 5px;
 }
