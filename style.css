@@ -87,17 +87,30 @@ tr:hover td {
 tr:hover th {
   background-color: rgb(105, 138, 187);
 }
-
-/*efecto hover sobre tabla mean*/
-#tabla-mean tr:hover td {
-  background-color: rgb(230, 146, 146);
-}
-tr:hover th {
-  background-color: rgb(187, 105, 105);
-}
 a {
   color: black;
 }
 a:hover {
   color: rgb(34, 50, 197);
+}
+
+/*efecto hover sobre tabla mean*/
+#tabla-mean tr:hover td {
+  background-color: rgb(230, 146, 146);
+}
+#tabla-mean tr:hover th {
+  background-color: rgb(187, 105, 105);
+}
+#tabla-mean a:hover {
+  color: rgb(30, 145, 101);
+}
+/*efecto hover sobre tabla lamp*/
+#tabla-lamp tr:hover th {
+  background-color: #4f5b93;
+}
+#tabla-lamp tr:hover td {
+  background-color: #8892bf;
+}
+#tabla-lamp a:hover {
+  color: rgb(255, 255, 255)
 }
