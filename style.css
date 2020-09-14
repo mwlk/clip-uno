@@ -120,3 +120,19 @@ a:hover {
 #tabla-lamp a:hover {
   color: rgb(255, 255, 255);
 }
+.btn-info.float-left.btn-lamp{
+  background-color: rgb(146, 166, 230);
+  border-color: #4f5b93;
+}
+.btn-info.float-left.btn-lamp a{
+  text-decoration: none; 
+  color: black;
+}
+.btn-info.float-left.btn-lamp:hover{
+  background-color: #4f5b93;
+  border-color: rgb(146, 166, 230);
+}
+.btn-info.float-left.btn-lamp a:hover{
+  text-decoration: none; 
+  color: white;
+}
